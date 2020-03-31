@@ -1,0 +1,39 @@
+h1{
+    color: darkblue;
+}
+body{
+    background-image:url('/src/assets/BYO_Large_1684x1114.jpg');
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #272727;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 85%;
+    font-weight: bold;
+    
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover:not(.active) {
+    opacity: 50%;
+    text-decoration: underline;
+  }
+  
+  .active {
+     text-decoration: underline;
+  }
+
+ 
