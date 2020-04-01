@@ -1,12 +1,15 @@
 h1{
     color: darkblue;
 }
+body{
+  background-image: url('../../assets/BYO_Large_1684x1114.jpg');
+}
 .bg-1{
     background-image: url('../../assets/BYO_Large_1684x1114.jpg');
     height: 700px;
     width:1361px; 
     padding-bottom: 0;
-    
+    background-size: cover;
 }
 ul{
     list-style-type: none;
@@ -20,7 +23,7 @@ ul{
     opacity: 85%;
     font-weight: bold;
     height: 65px;
-    
+    z-index: 2;
   }
   li {
     float: left;
@@ -48,4 +51,23 @@ ul{
      height: 175px;
      width: auto;
      margin-top:-12px;
+ }
+ .grad{
+  background: linear-gradient(to right,#000000,#FFFFFF);
+  height: 700px;
+    width:1361px; 
+  z-index: 1;
+  opacity: 20%;
+ }
+ 
+ .rect{
+  height: 446px;
+  width: 348px;
+   background-color:#272727 ;
+   opacity: 85%;
+   z-index: 2;
+   color: rgb(255, 255, 255);
+   float: left;
+   margin-top: 99px;
+   margin-left: 910px;
  }
